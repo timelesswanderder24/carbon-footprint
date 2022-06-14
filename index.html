@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<head>
+    <title>Carbon Tiptoe</title>
+    <link rel='stylesheet'type='text/css'href='index.css'>
+    <link rel='stylesheet'href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css'>
+    
+</head>
+<body>
+    <div class = 'navigation-bar'>
+        <div class="logo">
+            <!--logo created on Canva-->
+            <img src="logo.jpg" alt="logo">
+        </div>
+    <nav>
+        <ul>
+            <li>
+                <a href="#about" class="custom-color">About Us</a>
+            </li>
+            <li>
+                <a href="#whatwedo" class="custom-color"> What We Do</a>
+             </li>
+            <li> 
+                <a href="#getinvolved" class="custom-color">Get Involved</a>
+            </li>
+            <li class="register-btn">
+                <a href="register" class="custom-background-color">Log In</a>
+            </li>
+        </ul>
+    </nav>
+</div>
+<div class="modal-container"  id="ct-form">
+    <div class="modal">
+        <div class="custom-background-color modal-header">
+            <span class="cross-mark" id="close"><i class="fa-solid fa-xmark"></i></span>
+            <p>Registration Form</p>
+        </div>
+        <form>
+        <div id="userDetails" class="form-det">
+            <label for="gname" class="custom-color">Given Name:</label><br>
+            <input type="text" value="Enter Given Name" id="gname" name="gname" onfocus="this.value=''"><br>
+            <label for="sname" class="custom-color">Surname:</label><br>
+            <input type="text" value="Enter SurName" id="sname" name="sname" onfocus="this.value=''"><br>
+            <label for="uname" class="custom-color">User name:</label><br>
+            <input type="text" value="Enter User Name" id="uname" name="uname" onfocus="this.value=''"><br>
+            <label for="pword" class="custom-color">Password:</label><br>
+            <input type="text" value="Enter Password" id="pword" name="pword" onfocus="this.value=''"><br>
+        </div>
+        <div id="addresses" class="form-det">
+            <label for="haddress" class="custom-color">Home Address:</label><br>
+            <input type="text" value="Enter Home Address" id="haddress" name="haddress" onfocus="this.value=''"><br>
+            <label for="waddress" class="custom-color">Work Address:</label><br>
+            <input type="text" value="Enter Work Address" id="waddress" name="waddress" onfocus="this.value=''"><br>
+        </div>
+        <div id="contacts" class="form-det">
+            <label for="mnum" class="custom-color">Mobile Number:</label><br>
+            <input type="text" value="Enter Mobile Number" id="mnum" name="mnum" onfocus="this.value=''"><br>
+            <label for="mail" class="custom-color">Email:</label><br>
+            <input type="text" value="Enter Email" id="mail" name="mail" onfocus="this.value=''"><br>
+        </div>
+        <div class="form-det"><input type="submit" value="Submit" class="custom-background-color"></div>
+    </form>
+    </div>
+</div>
+    <div class = 'custom-background-color start-header'> 
+        <div class = 'image-slider'>
+            <div class="image-slides">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+
+                <div class="slide first">
+                    <!--image from https://www.istockphoto.com/-->
+                    <img src="planting.jpg"  alt = "planting">
+                </div>
+                <div class="slide">
+                    <!--image from https://www.istockphoto.com/-->
+                    <img src="cycling.jpg"  alt = "cycling">
+                </div>
+                <div class="slide">
+                    <!--image from https://www.istockphoto.com/-->
+                    <img src="taps.jpg"  alt = "turn off taps">
+                </div>
+                <div class="slide">
+                    <!--image from https://www.istockphoto.com/-->
+                    <img src="recycle.jpg"  alt = "recycling">
+                </div>
+                
+            </div>
+            <div class="navigation">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
+
+        </div>
+        <div class="custom-color intro-content">
+            <br>
+            <p>
+            <span>Change Starts With You</span>
+            <br><br>
+            Find out how much impact <br>you make to the environment<br>with our carbon footprint calculator
+            <br><br>
+            <a class="custom-background-color register-icon" id="trigger-modal">Register</a>
+            </p>
+        </div>
+        <div class="facts">
+            <div class="fact">
+            <p><span>34,000,000,000+ </span><br> Metric Tons<br>of carbon emmissions<br> globally</p>
+            </div>
+            <div class="fact">
+            <p><span>7+ </span><br>Tons of average carbon <br>footprint in <br>New Zealand</p>
+            </div>
+            <div class="fact">
+            <p><span>10+ </span><br>Tons of average carbon<br> footprint <br>globally</p>
+            </div>
+        </div>
+
+    </div>
+    <div class="content-first">
+        <p><span class="custom-color content-heading">About Us</span><br><br>
+        We impact conversation in more than 70 countries and territories thanks to our 
+            members, staff and scientists.
+        We help you find out your carbon foot print using your house-hold waste and
+        transportation. Find out where you stand compared to other New Zealanders.
+        </p>
+            <!--image from https://www.istockphoto.com/-->-->
+            <img src="forest1.jpg" alt="forest">
+    </div>
+    <div class="content">
+        <p><span class="custom-color content-heading">What We Do</span><br><br>
+        Guided by science and equity, we find paths to solve <br>climate Change
+            and biodiversity loss. We are<br> determined to make difference by 2030
+        </p>
+    </div>
+    <div class="content">
+        <p><span class="custom-color content-heading">How To Help</span><br><br>
+        From volunteering to reducing your carbon footprint,<br> there are many ways
+            you can get involved.
+        </p>
+    </div>
+<div class="custom-background-color footer">
+    <!--logo created on Canva-->
+<img src="logo-brown.jpg" alt="footer logo">
+<p>contact us: carbonTip@hotmail.com</p>
+</div>
+<script type="text/javascript">
+    var counter=1;
+    var open=document.getElementById('trigger-modal');
+    var closeWindow = document.getElementById("close");
+    var modal = document.getElementById("ct-form");
+
+    setInterval(function(){
+        document.getElementById('radio'+counter).checked = true;
+        counter++;
+        if(counter>4){
+            counter=1;
+        }
+    },5000);
+
+    open.onclick = function() {
+        modal.style.display = "block";
+    }
+    closeWindow.onclick = function() {
+        modal.style.display = "none";
+    }
+    
+    window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+</script>
+    
+</body>
